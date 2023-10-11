@@ -1,0 +1,126 @@
+.services-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-app {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.add-service_link {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.add-service_btn {
+  text-transform: uppercase;
+}
+
+.add-service_btn,
+.form_submit {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form_submit {
+  margin-top: 10px;
+  margin-inline: auto;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.service-item_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-item_name {
+  font-size: 20px;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.service-item:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.service-item_btn {
+  background-color: #fff;
+  border: 2px solid grey;
+  border-radius: 5px;
+
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.service-item_controls {
+  display: flex;
+  gap: 5px;
+}
+
+.filter-services {
+  margin-bottom: 20px;
+}
+
+.filter-services_text {
+  margin-right: 10px;
+}
+
+.add-service_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_label {
+  display: block;
+}
+
+.form_label:not(:last-child) {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.form_label_text {
+  width: 70px;
+  display: block;
+}
+
+.error-message {
+  padding: 10px;
+  background-color: #dd0000;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.form_container {
+  position: relative;
+}
+
+.loading_wrapper {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(255 255 255 / 76%);
+}

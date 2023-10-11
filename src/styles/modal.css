@@ -1,0 +1,25 @@
+.modal_wrapper {
+  position: absolute;
+  inset: 0;
+  background-color: #0005;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #fff;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.modal_close-btn {
+  align-self: flex-end;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

@@ -1,0 +1,9 @@
+@import url('./reset.css');
+@import url('./services.css');
+@import url('./modal.css');
+@import url('./spinner.css');
+
+body {
+  font-family: 'Mina', sans-serif;
+  word-break: break-word;
+}
